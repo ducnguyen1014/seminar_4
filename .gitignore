@@ -7,6 +7,19 @@ a-complete-ml-pipeline-fast-ai_test_2.ipynb
 pytorch-cnn-binary-image-classification.ipynb
 a-complete-ml-pipeline-fast-ai.ipynb
 
+# Model files (large files that shouldn't be in Git)
+*.pkl
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pkl.gz
+*.joblib
+
+# Model directories
+workspaces/*/models_*/
+models/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -161,5 +174,3 @@ cython_debug/
 # OS files
 .DS_Store
 Thumbs.db
-
-
